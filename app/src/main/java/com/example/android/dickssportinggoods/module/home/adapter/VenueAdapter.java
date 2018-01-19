@@ -8,18 +8,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.dsgandroidapp.R;
-import com.example.dsgandroidapp.mvp.Model.Venue;
+import com.example.android.dickssportinggoods.R;
+import com.example.android.dickssportinggoods.mvp.Model.Venue;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by Srinivas on 12/20/2017.
- */
 
 public class VenueAdapter extends RecyclerView.Adapter<VenueAdapter.Holder> {
 
@@ -79,9 +77,9 @@ public class VenueAdapter extends RecyclerView.Adapter<VenueAdapter.Holder> {
 
     public class Holder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        @Bind(R.id.info_text)
+        @BindView(R.id.info_text)
         protected TextView mVenueLocation;
-        @Bind(R.id.distance_text)
+        @BindView(R.id.distance_text)
         protected TextView distance;
         private Context mContext;
         private Venue mVenues;

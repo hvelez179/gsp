@@ -1,12 +1,12 @@
 package com.example.android.dickssportinggoods.mvp.Presenter;
 
+import com.example.android.dickssportinggoods.api.VenueApiService;
+import com.example.android.dickssportinggoods.base.BasePresenter;
+import com.example.android.dickssportinggoods.mapper.VenueMapper;
+import com.example.android.dickssportinggoods.mvp.Model.VenuesResponse;
+import com.example.android.dickssportinggoods.mvp.Model.VenuesResponseVenues;
+import com.example.android.dickssportinggoods.mvp.View.MainView;
 
-import com.example.dsgandroidapp.api.VenueApiService;
-import com.example.dsgandroidapp.base.BasePresenter;
-import com.example.dsgandroidapp.mapper.VenueMapper;
-import com.example.dsgandroidapp.mvp.Model.VenuesResponse;
-import com.example.dsgandroidapp.mvp.Model.VenuesResponseVenues;
-import com.example.dsgandroidapp.mvp.View.MainView;
 
 import java.util.List;
 

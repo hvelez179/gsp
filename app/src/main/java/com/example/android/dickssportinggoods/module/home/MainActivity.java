@@ -26,14 +26,14 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 public class MainActivity extends ParentActivity implements MainView {
 
     double latitude;
     double longitude;
 
-    @Bind(R.id.venue_list)
+    @BindView(R.id.venue_list)
     protected RecyclerView mVenueList;
 
     @Inject

@@ -14,22 +14,22 @@ import com.example.android.dickssportinggoods.base.ParentActivity;
 import com.example.android.dickssportinggoods.module.home.adapter.PhotosAdapter;
 import com.example.android.dickssportinggoods.mvp.Model.Venue;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 
 
 public class DetailsActivity extends ParentActivity {
 
-    @Bind(R.id.name)
+    @BindView(R.id.name)
     TextView name;
-    @Bind(R.id.address)
+    @BindView(R.id.address)
     TextView address;
-    @Bind(R.id.rating)
+    @BindView(R.id.rating)
     TextView rating;
 
-    @Bind(R.id.layout2)
+    @BindView(R.id.layout2)
     RecyclerView photos;
-    @Bind(R.id.favorite)
+    @BindView(R.id.favorite)
     ImageButton favBtn;
     boolean isFavorite;
 
