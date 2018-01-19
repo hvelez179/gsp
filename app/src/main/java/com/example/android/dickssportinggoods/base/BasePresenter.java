@@ -1,7 +1,7 @@
 package com.example.android.dickssportinggoods.base;
 
 
-import com.example.dsgandroidapp.mvp.View.BaseView;
+import com.example.android.dickssportinggoods.mvp.View.BaseView;
 
 import javax.inject.Inject;
 

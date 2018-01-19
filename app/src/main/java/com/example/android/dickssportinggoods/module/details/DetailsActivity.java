@@ -9,11 +9,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.example.dsgandroidapp.R;
-import com.example.dsgandroidapp.base.ParentActivity;
-import com.example.dsgandroidapp.module.home.adapter.PhotosAdapter;
-import com.example.dsgandroidapp.module.website.WebsiteActivity;
-import com.example.dsgandroidapp.mvp.Model.Venue;
+import com.example.android.dickssportinggoods.R;
+import com.example.android.dickssportinggoods.base.ParentActivity;
+import com.example.android.dickssportinggoods.module.home.adapter.PhotosAdapter;
+import com.example.android.dickssportinggoods.mvp.Model.Venue;
 
 import butterknife.Bind;
 
@@ -61,11 +60,6 @@ public class DetailsActivity extends ParentActivity {
         checkFavoriteOnRotation(savedInstanceState);
     }
 
-    public void website(View view) {
-        Intent i = new Intent(DetailsActivity.this, WebsiteActivity.class);
-        i.putExtra("url", venue.getVenue().getUrl());
-        startActivity(i);
-    }
 
     private void checkFavouriteOnIntent() {
         if (venue.isFavourite()) {

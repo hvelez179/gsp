@@ -1,7 +1,7 @@
 package com.example.android.dickssportinggoods.api;
 
 
-import com.example.dsgandroidapp.mvp.Model.VenuesResponse;
+import com.example.android.dickssportinggoods.mvp.Model.VenuesResponse;
 
 import retrofit2.http.GET;
 import rx.Observable;

@@ -1,7 +1,7 @@
 package com.example.android.dickssportinggoods.mvp.View;
 
 
-import com.example.dsgandroidapp.mvp.Model.VenuesResponseVenues;
+import com.example.android.dickssportinggoods.mvp.Model.VenuesResponseVenues;
 
 import java.util.List;
 

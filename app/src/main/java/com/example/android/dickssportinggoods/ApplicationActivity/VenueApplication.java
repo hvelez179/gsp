@@ -2,9 +2,9 @@ package com.example.android.dickssportinggoods.ApplicationActivity;
 
 import android.app.Application;
 
-import com.example.dsgandroidapp.dependenctInjection.component.ApplicationComponent;
-import com.example.dsgandroidapp.dependenctInjection.component.DaggerApplicationComponent;
-import com.example.dsgandroidapp.dependenctInjection.module.ApplicationModule;
+import com.example.android.dickssportinggoods.dependencyInjection.component.ApplicationComponent;
+import com.example.android.dickssportinggoods.dependencyInjection.component.DaggerApplicationComponent;
+import com.example.android.dickssportinggoods.dependencyInjection.module.ApplicationModule;
 
 
 public class VenueApplication extends Application {

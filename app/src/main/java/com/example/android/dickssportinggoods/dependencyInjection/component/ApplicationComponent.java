@@ -2,7 +2,7 @@ package com.example.android.dickssportinggoods.dependencyInjection.component;
 
 import android.content.Context;
 
-import com.example.dsgandroidapp.dependenctInjection.module.ApplicationModule;
+import com.example.android.dickssportinggoods.dependencyInjection.module.ApplicationModule;
 
 import javax.inject.Singleton;
 

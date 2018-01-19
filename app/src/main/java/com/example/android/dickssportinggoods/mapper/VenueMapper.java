@@ -1,8 +1,8 @@
 package com.example.android.dickssportinggoods.mapper;
 
 
-import com.example.dsgandroidapp.mvp.Model.VenuesResponse;
-import com.example.dsgandroidapp.mvp.Model.VenuesResponseVenues;
+import com.example.android.dickssportinggoods.mvp.Model.VenuesResponse;
+import com.example.android.dickssportinggoods.mvp.Model.VenuesResponseVenues;
 
 import java.util.ArrayList;
 import java.util.List;

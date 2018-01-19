@@ -8,8 +8,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.dsgandroidapp.ApplicationActivity.VenueApplication;
-import com.example.dsgandroidapp.dependenctInjection.component.ApplicationComponent;
+import com.example.android.dickssportinggoods.ApplicationActivity.VenueApplication;
+import com.example.android.dickssportinggoods.dependencyInjection.component.ApplicationComponent;
 
 import butterknife.ButterKnife;
 
@@ -66,7 +66,7 @@ public abstract class ParentActivity extends AppCompatActivity {
     }
 
     protected ApplicationComponent getApplicationComponent() {
-        return ((VenueApplication) getApplication()).getApplicationComponent();
+        return (ApplicationComponent) ((VenueApplication) getApplication()).getApplicationComponent();
     }
 
     protected abstract int getContentView();

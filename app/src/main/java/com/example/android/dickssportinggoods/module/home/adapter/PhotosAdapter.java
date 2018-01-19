@@ -8,12 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.example.dsgandroidapp.R;
-import com.example.dsgandroidapp.mvp.Model.VenuesResponseVenuesPhotos;
+import com.example.android.dickssportinggoods.R;
+import com.example.android.dickssportinggoods.mvp.Model.VenuesResponseVenuesPhotos;
 
-/**
- * Created by Srinivas on 12/20/2017.
- */
 
 public class PhotosAdapter extends RecyclerView.Adapter<PhotosAdapter.ViewHolder> {
     private VenuesResponseVenuesPhotos[] data;

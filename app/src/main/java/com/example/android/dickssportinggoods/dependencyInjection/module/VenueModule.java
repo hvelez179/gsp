@@ -1,9 +1,12 @@
 package com.example.android.dickssportinggoods.dependencyInjection.module;
 
 
-import com.example.dsgandroidapp.api.VenueApiService;
-import com.example.dsgandroidapp.dependenctInjection.scope.PerActivity;
-import com.example.dsgandroidapp.mvp.View.MainView;
+import dagger.Module;
+import dagger.Provides;
+
+import com.example.android.dickssportinggoods.api.VenueApiService;
+import com.example.android.dickssportinggoods.dependencyInjection.scope.PerActivity;
+import com.example.android.dickssportinggoods.mvp.View.MainView;
 
 import dagger.Module;
 import dagger.Provides;
